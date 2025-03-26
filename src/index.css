@@ -1,0 +1,44 @@
+@import 'https://fonts.googleapis.com/css2?family=Gruppo&family=Instrument+Serif:ital@0;1&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oranienbaum&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap';
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-logo: "Instrument Serif", serif;
+    --font-text: "Merriweather", serif;
+}
+
+.headerLink {
+    @apply font-text py-1 hover:border-b-2;
+}
+
+.navbarOn {
+    @apply top-0;
+}
+
+.navbarLink {
+    @apply md:text-lg lg:text-xl 
+           border-b-2 border-black/40 dark:border-white/40 font-text 
+           h-12 md:h-14 lg:h-16 
+           px-4 md:px-6 lg:px-8 
+           flex justify-between items-center
+           w-9/10 mx-auto;
+}
+
+.navbarIcon {
+    @apply text-2xl md:text-3xl lg:text-4xl;
+}
+
+.newsDiv {
+    @apply flex flex-col gap-8 
+           w-9/10 xl:w-4/5 mx-auto mt-8 font-text
+           md:grid md:grid-cols-2 xl:grid-cols-3
+}
+
+.filterInput {
+    @apply bg-gray-200 dark:bg-gray-700 px-2 py-3 rounded-xl;
+}
+
+.filterOpen {
+    @apply flex md:grid xl:flex;
+}
