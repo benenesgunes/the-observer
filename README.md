@@ -1,12 +1,49 @@
-# React + Vite
+# The Observer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**The Observer** is a simple news aggregator web app that fetches news from the [NewsDataHub API](https://newsdata.io/) and displays them to users. Users can filter news based on topics, languages, and dates, or search for specific articles. This project is built using React, styled with Tailwind CSS, and uses Vite for fast development.
 
-Currently, two official plugins are available:
+## Features
+- Fetches real-time news data from the [NewsDataHub API](https://newsdata.io/).
+- Filter news articles by topics, languages, or dates.
+- Search news articles by keywords.
+- Lightweight and fully client-side (no backend).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend**: React, Vite, Tailwind CSS
+- **API**: NewsDataHub API (for fetching news)
+- **Deployment**: Local development (not live)
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/benenesgunes/the-observer.git
+```
+Navigate into the project directory:
+```bash
+cd the-observer
+```
+Install dependencies:
+```bash
+npm install
+```
+Start the development server:
+```bash
+npm run dev
+```
+
+Open your browser and go to http://localhost:3000 to view the app.
+
+## Usage
+
+- Use the search bar to find specific news articles.
+- Filter news by topics, languages, or dates using the available filters.
+
+## License
+
+This project is a nonprofit, solo initiative and is licensed under the MIT License.
+
+## Contributing
+
+As this is a solo project, contributions are not currently being accepted, but feel free to open an issue if you encounter any bugs.
