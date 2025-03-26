@@ -2,6 +2,8 @@
 
 **The Observer** is a simple news aggregator web app that fetches news from the [NewsDataHub API](https://newsdata.io/) and displays them to users. Users can filter news based on topics, languages, and dates, or search for specific articles. This project is built using React, styled with Tailwind CSS, and uses Vite for fast development.
 
+![Home Page](./public/homepage-screenshot.png)
+
 ## Features
 - Fetches real-time news data from the [NewsDataHub API](https://newsdata.io/).
 - Filter news articles by topics, languages, or dates.
